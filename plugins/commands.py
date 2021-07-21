@@ -243,7 +243,7 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Movie Group", url="https://telegram.dog/ MoviZenix"),
+                    InlineKeyboardButton("Movie Group", url="https://telegram.dog/MoviZenix"),
                     InlineKeyboardButton("About Me", callback_data="about_data")
                 ],
                 [
